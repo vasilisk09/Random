@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(lightblue,rgba(255, 255, 0, 0.493));
+}
+
+#note{
+    border: 5px solid black;
+    padding: 3px;
+    border-radius: 100px;
+    width: 110px;
+    background-color: black;
+    color: white;
+}

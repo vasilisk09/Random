@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+
+
+<head>
+
+    <title>My first website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My first HTML webpage">
+    <meta name="keywords" content="HTML, tutorial, beginners">
+    <meta name="author" content="Vasilis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+<body>
+
+    <p id="note">Click the images</p>
+
+
+
+    <p><a href="https://en.wikipedia.org/wiki/Shrek" target="_blank">
+    <img src="./images/flat,750x,075,f-pad,750x1000,f8f8f8 (1).jpg" title="Shrek" height="300" alt="This is a picture of shrek">
+    </a> </p>
+
+
+
+    <p>
+        <audio controls autoplay loop>
+        <source src="./audio/Headlands.mp3">
+        <source src="./audio/Headlands.wav">
+        This browser does not support HTML 5 audio
+        </audio> 
+    </p>
+    <p>
+        <a href="https://www.youtube.com/audiolibrary" target="_blank">
+        <img src="./images/audio.png" height="100">
+    </a>
+    </p>
+
+    
+
+    <p>
+    <p>This is normal text</p>
+    <p>This is <b>bold</b> text</p>
+    <p>This is <i>italic</i> text</p>
+    <p>This is <big>big</big> text</p>
+    <p>This is <small>small</small> text</p>
+    <p>This is <sub>subscript</sub> text</p>
+    <p>This is <sup>superscript</sup> text</p>
+    <p>This is <ins>inserted</ins> text</p>
+    <p>This is <del>deleted</del> text</p>
+    <p>This is <mark>marked</mark> text</p>
+    </p>
+
+    <p>
+    <h4>Unordered List</h4>
+
+    <ul>
+        <li>pizza dough</li>
+        <li>tomato sauce</li>
+        <li>chesse</li>
+        <li>toppings
+            <ul>
+                <li>peperoni</li>
+                <li>mushrooms</li>
+                <li>peppers</li>
+            </ul>
+        </li>
+
+
+    </ul>
+
+    <h4>Ordered List</h4>
+
+    <ol type="I">
+        <li>eat breakfast</li>
+        <li>take shower</li>
+        <li>leave for work</li>
+
+
+    </ol>
+
+    <h4>Description List</h4>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>This adds structure to a website</dd>
+        <dt>CSS</dt>
+        <dd>This adds style to a website</dd>
+        <dt>This adds functionality to a webstie</dt>
+    </dl>
+    </p>
+
+
+
+    <p>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+
+        <tr bgcolor="lightgray" align="center">
+            <td>closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>closed</td>
+        </tr>
+    </table>
+    </p>
+
+    <p>
+    <div style="background-color: black;">
+    <h1 style="color: red;">Hello!</h1>
+    <h1 style="color: rgb(66, 246, 255)">Hello!</h1>
+    <h1 style="color: #a8f58e;">Hello!</h1>
+
+    <p style="background-color: #222222; color:#a8f58e">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum pariatur aliquam, praesentium mollitia, soluta quam voluptas, vero harum alias dignissimos aliquid in! Cumque sapiente fuga totam delectus quia officia vitae!</p>
+    </div>
+    </p>
+
+
+    <p>
+        <h1>Hello!</h1>
+
+        <div style="background-color: #444444;">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quo amet iste, fugiat ad quae cum nihil vitae nam eum nulla 
+            obcaecati voluptatum, nostrum esse in sequi voluptate ipsa. 
+            Ullam, labore!
+        </p>
+        <p>
+            <span style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+            Blanditiis aperiam unde, ipsum delectus cum, fugiat a quo 
+            recusandae ea rem ex nemo aliquid quia voluptates explicabo, 
+            similique corrupti eligendi numquam.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Laborum, saepe explicabo. Soluta facilis aliquid, blanditiis 
+            beatae ipsum qui excepturi ducimus numquam, corporis, nisi 
+            pariatur sint voluptates architecto voluptatibus commodi tempore.
+        </p>
+        </div>
+    </p>
+
+    <p>
+    <iframe style="border: 0px;" src="./ad.html" height="100px" width="750px"></iframe>
+    </p>
+
+
+
+    <p>
+    <button onclick="doSomething()" style="background-color: #333333;color:#00ff00;border-radius:10px">Click me</button>
+    <p id="test">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye";
+            
+        }
+    </script>
+    </p>
+
+
+    <form>
+
+        <div>
+        <label for="fname"><b>First Name:</b></label>
+        <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="lname"><b>Last Name:</b></label>
+        <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email"  required>
+        </div>
+        
+        <br>
+
+        <div>
+        <label for="phone"><b>Phone #:</b></label>
+        <input type="tell" id="phone" name="phone" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="password"><b>Password:</b></label>
+        <input type="text" id="password" name="password" maxlength="16" minlength="8" required>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="bdate"><b>Birthdate:</b></label>
+        <input type="date" id="bdate" name="bdate" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title"><b>Title: </b></label>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+        </div>
+
+        <br>
+
+        <div>
+        <label for="quan"><b>Quantity:</b></label>
+        <input type="number" id="quan" name="quan" required min="0" max="99" value="1">
+        </div>
+
+        <br>
+
+        <div>
+        <label for="pay"><b>Payment:</b></label>
+        <select id="pay" name="pay">
+            <option value="vise">visa</option>
+            <option value="mastercard">mastercars</option>
+            <option value="giftcard">giftcard</option>
+        </select>
+        </div>
+
+        <br>
+
+        <div>
+        <label for="sub"><b>Subscribe:</b></label>
+        <input type="checkbox" id="sub" name="sub">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+
+        <br>
+
+        <div style="color: red; height:20px">DO NOT SUBMIT SENSITIVE INFORMATION HERE</div>
+
+    </form>
+
+
+
+
+
+
+</body>
+</html>
